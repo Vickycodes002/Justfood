@@ -599,7 +599,7 @@ input{
 
 }
 
-@media screen and (min-width: 1024px){
+@media screen and (max-width: 1024px){
   .first-image img {
     width: 350px;
   }
@@ -615,6 +615,11 @@ input{
 
   .box1, .box2, .box3 {
     width: 300px;
+  }
+
+  .newsletter {
+    gap: 20%;
+    height: 350px;
   }
 }
 
@@ -644,6 +649,11 @@ input{
 
   .land-content>p {
     font-size: 15px;
+  }
+
+  .newsletter {
+    gap: 5%;
+    height: 350px;
   }
 }
 
@@ -706,6 +716,16 @@ input{
     font-size: 10px;
   }
 
+  .newsletter {
+   flex-direction: column;
+  }
+
+  .newsimg img {
+    height: 186px;
+}
+
+.cta {
+}
 
 
 }
