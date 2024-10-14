@@ -635,7 +635,15 @@ input{
     justify-content: center;
     flex-direction: column;
     gap: 100px;
+  }
 
+  .land-content>h2 {
+    font-size: 20px;
+    /* margin-top: 20px; */
+  }
+
+  .land-content>p {
+    font-size: 15px;
   }
 }
 
@@ -676,4 +684,28 @@ input{
     font-size: 16px;
     margin-top: 12px;
   }
+
+  .sub-land {
+    display: block;
+  }
+
+  .land-content {
+    margin-left: 20px;
+  }
+
+  .land-img {
+    height: 150px;
+  }
+
+  .land-content>h2 {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+
+  .land-content>p {
+    font-size: 10px;
+  }
+
+
+
 }
